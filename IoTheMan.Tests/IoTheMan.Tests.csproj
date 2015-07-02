@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4B591191-C52C-4730-92D7-8316A6F2CD04}</ProjectGuid>
+    <ProjectGuid>{372E7CE4-44A2-4C45-9AF0-BFFE9FF2C6D4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>IoTheMan.Tests</RootNamespace>
     <AssemblyName>IoTheMan.Tests</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -108,11 +109,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\IoTheMan.Web\IoTheMan.Web.csproj">
-      <Project>{e9ee331f-423d-4810-b639-532dce5a2081}</Project>
+      <Project>{364976a5-6946-47b6-913b-0c9935be9ec1}</Project>
       <Name>IoTheMan.Web</Name>
     </ProjectReference>
   </ItemGroup>

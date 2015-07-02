@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MongoMinder")]
+[assembly: AssemblyTitle("IoTheMan.Web")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MongoMinder")]
+[assembly: AssemblyProduct("IoTheMan.Web")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f7e9072d-1636-4244-a924-455debfc3702")]
+[assembly: Guid("00e9bd21-e0e9-4563-8156-e0d341ea6ba1")]
 
 // Version information for an assembly consists of the following four values:
 //
